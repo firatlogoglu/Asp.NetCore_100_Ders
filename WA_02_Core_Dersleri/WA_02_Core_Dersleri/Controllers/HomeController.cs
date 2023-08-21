@@ -17,5 +17,10 @@ namespace WA_02_Core_Dersleri.Controllers
         {
             return View();
         }
+
+        public int Index3()
+        {
+            return 24;
+        }
     }
 }
