@@ -40,5 +40,10 @@ namespace WA_02_Core_Dersleri.Controllers
 
             return View(ktp);
         }
+
+        public IActionResult Index6()
+        {
+            return View();
+        }
     }
 }
