@@ -8,10 +8,19 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
+    <title>DERS 4</title>
 </head>
 <body>
-    <div>Projemizin ilk controllera bağlı layout alanıdır.</div>
-    <div style="background-color:#00ff21">Merhaba Çocuklar Mühendisler</div>
+    <div style="background-color:#ff6a00">
+        @DateTime.Now.ToShortDateString()
+    </div>
+    <br />
+    <div style="background-color:#ffd800">
+        @for (int i = 1; i <= 10; i++)
+        {
+            @i
+            <br />
+        }
+    </div>
 </body>
 </html>
