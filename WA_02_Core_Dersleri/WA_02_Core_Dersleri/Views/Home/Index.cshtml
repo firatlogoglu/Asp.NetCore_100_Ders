@@ -27,10 +27,16 @@
     <div style="background-color:#4cff00">
         @{
             var liste = new List<string>() { "Ankara", "Bursa", "Adana", "İzmir" };
-        }
-        @foreach (var li in liste)
-        {
-            @li <br />
+            int x = 0;
+
+            foreach (var li in liste)
+            {
+                x++;
+                string txt = x + ".) " + li;
+
+                @txt
+                <br />
+            }
         }
     </div>
 </body>
