@@ -22,5 +22,10 @@ namespace WA_02_Core_Dersleri.Controllers
         {
             return 24;
         }
+
+        public string Index4()
+        {
+            return "Merhaba Bugün Hava Çok Soğuk";
+        }
     }
 }
