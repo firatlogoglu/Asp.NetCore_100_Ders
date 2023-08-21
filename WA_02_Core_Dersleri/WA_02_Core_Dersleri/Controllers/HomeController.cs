@@ -27,5 +27,10 @@ namespace WA_02_Core_Dersleri.Controllers
         {
             return "Merhaba Bugün Hava Çok Soğuk";
         }
+
+        public IActionResult Index5()
+        {
+            return View();
+        }
     }
 }
