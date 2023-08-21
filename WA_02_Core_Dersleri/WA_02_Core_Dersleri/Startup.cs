@@ -27,7 +27,7 @@ namespace WA_02_Core_Dersleri
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Merhaba Dunya .Net Core Calisiyoruz");
+                await context.Response.WriteAsync("Merhaba gunaydin nasilsiniz .Net Core Calisiyoruz");
             });
         }
     }
