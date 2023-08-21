@@ -11,6 +11,15 @@
     <title>DERS 4</title>
 </head>
 <body>
-    @DateTime.Now.ToShortDateString()
+    <div style="background-color:#ff6a00">
+        @DateTime.Now.ToShortDateString()
+    </div>
+    <br />
+    <div style="background-color:#ffd800">
+        @for (int i = 1; i <= 10; i++)
+        {
+            @i
+        }
+    </div>
 </body>
 </html>
