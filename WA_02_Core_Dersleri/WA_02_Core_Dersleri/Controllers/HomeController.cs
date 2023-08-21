@@ -45,6 +45,7 @@ namespace WA_02_Core_Dersleri.Controllers
         {
             ViewBag.deger1 = "Merhaba Core Dersleri Devam Ediyor";
             ViewBag.deger2 = "Sizden bir ricam var";
+            ViewBag.deger3 = "Ödevi yaptım.";
             return View();
         }
     }
