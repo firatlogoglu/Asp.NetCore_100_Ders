@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WA_02_Core_Dersleri.Models;
 
 namespace WA_02_Core_Dersleri.Controllers
 {
@@ -30,7 +31,14 @@ namespace WA_02_Core_Dersleri.Controllers
 
         public IActionResult Index5()
         {
-            return View();
+            var ktp = new List<Kitap>()
+            {
+                new Kitap(){ID=1,KitapAd="80 Günde Devri Alem",Yazar="Jules Verne"},
+                new Kitap(){ID=2,KitapAd="Bilinmeyen Bir Kadının Mektubu",Yazar="Stefan Zweig"},
+                new Kitap(){ID=3,KitapAd="Bir Noel Hikayesi",Yazar="Charles Dickens"}
+            };
+
+            return View(ktp);
         }
     }
 }

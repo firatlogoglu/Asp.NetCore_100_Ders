@@ -1,4 +1,4 @@
-﻿
+﻿@model List<WA_02_Core_Dersleri.Models.Kitap>
 @{
     Layout = null;
 }
@@ -11,5 +11,18 @@
     <title>Index5</title>
 </head>
 <body>
+    <h4>Merhaba Kitap Sayfamıza Hoşgeldiniz</h4>
+    <br />
+    <br />
+    <table>
+        @foreach (var k in Model)
+        {
+        <tr>
+            <td>@k.ID</td>
+            <td>@k.KitapAd</td>
+            <td>@k.Yazar</td>
+        </tr>
+        }
+    </table>
 </body>
 </html>
