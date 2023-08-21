@@ -43,6 +43,7 @@ namespace WA_02_Core_Dersleri.Controllers
 
         public IActionResult Index6()
         {
+            ViewBag.deger1 = "Merhaba Core Dersleri Devam Ediyor";
             return View();
         }
     }
