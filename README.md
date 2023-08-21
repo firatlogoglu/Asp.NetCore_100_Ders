@@ -12,6 +12,8 @@
 <a href="https://youtu.be/EiLDHkLcx1A">5.) Asp.Net Core Mvc: Ders 5 Razor Syntax ve Foreach Döngüsü</a>
 <br />
 <a href="https://youtu.be/UH0XH-ZOvXk">6.) Asp.Net Core Mvc: Ders 6 Action Türleri</a>
+<br />
+<a href="https://youtu.be/4RcTjer0IXc">7.) Asp.Net Core Mvc: Ders 7 Model Yapısı</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
