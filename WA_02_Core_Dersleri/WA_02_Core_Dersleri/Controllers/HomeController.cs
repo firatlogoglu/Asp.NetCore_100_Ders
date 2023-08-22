@@ -48,5 +48,20 @@ namespace WA_02_Core_Dersleri.Controllers
             ViewBag.deger3 = "Ödevi yaptım.";
             return View();
         }
+
+        public IActionResult Index7()
+        {
+            return View();
+        }
+
+        public IActionResult Index8()
+        {
+            return View();
+        }
+
+        public IActionResult Index9()
+        {
+            return View();
+        }
     }
 }
