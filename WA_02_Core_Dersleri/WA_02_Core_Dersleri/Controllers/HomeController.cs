@@ -58,5 +58,10 @@ namespace WA_02_Core_Dersleri.Controllers
         {
             return View();
         }
+
+        public IActionResult Index9()
+        {
+            return View();
+        }
     }
 }
