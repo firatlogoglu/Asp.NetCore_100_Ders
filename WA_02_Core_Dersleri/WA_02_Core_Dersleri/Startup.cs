@@ -26,6 +26,8 @@ namespace WA_02_Core_Dersleri
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseStaticFiles();
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
