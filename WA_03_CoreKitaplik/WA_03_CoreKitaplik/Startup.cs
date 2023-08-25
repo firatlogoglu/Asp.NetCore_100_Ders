@@ -25,7 +25,7 @@ namespace WA_03_CoreKitaplik
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseStaticFiles();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
