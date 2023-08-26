@@ -26,6 +26,8 @@
 <a href="https://youtu.be/mZV7IyHUWyE">12.) Asp.Net Core Mvc: Ders 12 Partial View Kullanımı</a>
 <br />
 <a href="https://youtu.be/g3aqQY6HU4c">13.) Asp.Net Core Mvc: Ders 13 ViewComponent Kullanımı</a>
+<br />
+<a href="https://youtu.be/0FK4OBiamsE">14.) Asp.Net Core Mvc: Ders 14 ViewComponent 2 Kitapları Listeleme</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
