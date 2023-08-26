@@ -22,6 +22,8 @@
 <a href="https://youtu.be/omP2bIUo7TY">10.) Asp.Net Core Mvc: Ders 10 wwwroot Klasörü ve Client Side Library</a>
 <br/>
 <a href="https://youtu.be/pSeGorcbMr4">11.) Asp.Net Core Mvc: Ders 11 Kitaplık Projesi</a>
+<br />
+<a href="https://youtu.be/mZV7IyHUWyE">12.) Asp.Net Core Mvc: Ders 12 Partial View Kullanımı</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
