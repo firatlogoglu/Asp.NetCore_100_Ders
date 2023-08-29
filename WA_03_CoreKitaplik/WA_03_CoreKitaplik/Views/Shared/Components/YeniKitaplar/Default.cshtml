@@ -6,4 +6,12 @@
         <th>Ad</th>
         <th>Yazar</th>
     </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.ID</td>
+            <td>@x.KitapAd</td>
+            <td>@x.Yazar</td>
+        </tr>
+    }
 </table>
