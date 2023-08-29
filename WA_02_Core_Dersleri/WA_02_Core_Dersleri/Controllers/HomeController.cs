@@ -35,7 +35,8 @@ namespace WA_02_Core_Dersleri.Controllers
             {
                 new Kitap(){ID=1,KitapAd="80 Günde Devri Alem",Yazar="Jules Verne"},
                 new Kitap(){ID=2,KitapAd="Bilinmeyen Bir Kadının Mektubu",Yazar="Stefan Zweig"},
-                new Kitap(){ID=3,KitapAd="Bir Noel Hikayesi",Yazar="Charles Dickens"}
+                new Kitap(){ID=3,KitapAd="Bir Noel Hikayesi",Yazar="Charles Dickens"},
+                new Kitap(){ID=4,KitapAd="Şeker Portakalı",Yazar="José Mauro de Vasconcelos"}
             };
 
             return View(ktp);
