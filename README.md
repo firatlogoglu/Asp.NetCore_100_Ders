@@ -36,6 +36,8 @@
 <a href="https://youtu.be/BubYl5DIfhk">17.) Asp.Net Core Mvc: Ders 17 Statik Kimlik Kartı Projesi</a>
 <br />
 <a href="https://youtu.be/zISutwRRNr4">18.) Asp.Net Core Mvc: Ders 18 Statik Proje Sayfayı Türkçeleştirme</a>
+<br />
+<a href="https://youtu.be/nMUkkgabImw">19.) Asp.Net Core Mvc: Ders 19 Entity Paketleri (Entity Core, Core Design, SQL Server, Core Tools)</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
