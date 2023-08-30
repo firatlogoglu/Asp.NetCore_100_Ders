@@ -22,5 +22,10 @@ namespace WA_03_CoreKitaplik.Controllers
 
             return View(ktp);
         }
+
+        public IActionResult Deneme()
+        {
+            return View();
+        }
     }
 }
