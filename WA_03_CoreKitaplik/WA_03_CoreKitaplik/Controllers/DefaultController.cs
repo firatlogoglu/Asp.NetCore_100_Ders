@@ -27,5 +27,10 @@ namespace WA_03_CoreKitaplik.Controllers
         {
             return View();
         }
+
+        public IActionResult StatikTema()
+        {
+            return View();
+        }
     }
 }
