@@ -42,6 +42,8 @@
 <a href="https://youtu.be/oD4Uzk0dfmk">20.) Asp.Net Core Mvc: Ders 20 Model İçinde Sınıfların Tanımlanması</a>
 <br />
 <a href="https://youtu.be/AtzBWTcquqw">21.) Asp.Net Core Mvc: Ders 21 Migration Oluşturma</a>
+<br />
+<a href="https://youtu.be/22uWHvwULWg">22.) Asp.Net Core Mvc: Ders 22 Layout Tanımlama</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 

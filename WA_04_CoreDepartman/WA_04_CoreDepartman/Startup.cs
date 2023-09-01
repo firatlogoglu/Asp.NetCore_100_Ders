@@ -53,7 +53,7 @@ namespace WA_04_CoreDepartman
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Depart}/{action=Index}/{id?}");
             });
         }
     }
