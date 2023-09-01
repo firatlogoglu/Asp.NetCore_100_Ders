@@ -44,6 +44,8 @@
 <a href="https://youtu.be/AtzBWTcquqw">21.) Asp.Net Core Mvc: Ders 21 Migration Oluşturma</a>
 <br />
 <a href="https://youtu.be/22uWHvwULWg">22.) Asp.Net Core Mvc: Ders 22 Layout Tanımlama</a>
+<br />
+<a href="https://youtu.be/5NV1_mQ4nxs">23.) Asp.Net Core Mvc: Ders 23 SideBar Dahil Etme</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
