@@ -41,7 +41,7 @@ namespace WA_04_CoreDepartman.Controllers
         public IActionResult DepartmanGetir(int id)
         {
             var depart = c.Departmen.Find(id);
-            return View("DepartmanGetir");
+            return View("DepartmanGetir", depart);
         }
     }
 }
