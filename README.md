@@ -50,6 +50,8 @@
 <a href="https://youtu.be/_VgqQEVTlO0">24.) Asp.Net Core Mvc: Ders 24 Departmanların Listelenmesi</a>
 <br />
 <a href="https://youtu.be/VFdoMuY7c_Q">25.) Asp.Net Core Mvc: Ders 25 Yeni Departman Ekleme Sayfa Tasarımı</a>
+<br />
+<a href="https://youtu.be/hE16LAkyMpU">26.) Asp.Net Core Mvc: Ders 26 Yeni Departman Ekleme İşlemi</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
