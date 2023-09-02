@@ -25,7 +25,9 @@ namespace WA_04_CoreDepartman.Controllers
         [HttpPost]
         public IActionResult YeniDepartman(Departman d)
         {
-            return View();
+            c.Departmen.Add(d);
+            c.SaveChanges();
+            return RedirectToAction("Index");
         }
     }
 }
