@@ -15,5 +15,17 @@ namespace WA_04_CoreDepartman.Controllers
             var degerler = c.Departmen.ToList();
             return View(degerler);
         }
+
+        [HttpGet]
+        public IActionResult YeniDepartman()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult YeniDepartman(Departman d)
+        {
+            return View();
+        }
     }
 }
