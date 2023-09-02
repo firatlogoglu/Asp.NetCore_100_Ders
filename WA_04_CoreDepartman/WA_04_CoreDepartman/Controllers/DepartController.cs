@@ -29,5 +29,13 @@ namespace WA_04_CoreDepartman.Controllers
             c.SaveChanges();
             return RedirectToAction("Index");
         }
+
+        public IActionResult DepartmanSil(int id)
+        {
+            var dep = c.Departmen.Find(id);
+            c.Departmen.Remove(dep);
+            c.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }
