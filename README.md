@@ -48,6 +48,8 @@
 <a href="https://youtu.be/5NV1_mQ4nxs">23.) Asp.Net Core Mvc: Ders 23 SideBar Dahil Etme</a>
 <br />
 <a href="https://youtu.be/_VgqQEVTlO0">24.) Asp.Net Core Mvc: Ders 24 Departmanların Listelenmesi</a>
+<br />
+<a href="https://youtu.be/VFdoMuY7c_Q">25.) Asp.Net Core Mvc: Ders 25 Yeni Departman Ekleme Sayfa Tasarımı</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
