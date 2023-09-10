@@ -60,6 +60,8 @@
 <a href="https://youtu.be/4qOTA6-P0fI">29.) Asp.Net Core Mvc: Ders 29 Departman Güncelleme</a>
 <br />
 <a href="https://youtu.be/qaw6JR3A8DM">30.) Asp.Net Core Mvc: Ders 30 Add Migration Update Database</a>
+<br />
+<a href="https://youtu.be/nbiXGWfLOHs">31.) Asp.Net Core Mvc: Ders 31 Sütun Silme Migration</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
