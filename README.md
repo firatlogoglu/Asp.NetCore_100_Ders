@@ -66,6 +66,8 @@
 <a href="https://youtu.be/YjXJeA4sx6g">32.) Asp.Net Core Mvc: Ders 32 İlişkilerin Oluşturulması</a>
 <br />
 <a href="https://youtu.be/POYR4rpUTs4">33.) Asp.Net Core Mvc: Ders 33 Personel Listesi</a>
+<br />
+<a href="https://youtu.be/fkFVYDtHwIU">34.) Asp.Net Core Mvc: Ders 34 Proje Revize</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
