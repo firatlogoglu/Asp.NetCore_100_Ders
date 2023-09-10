@@ -13,5 +13,7 @@ namespace WA_04_CoreDepartman.Models
         public string Ad { get; set; }
         public string Soyad { get; set; }
         public string Sehir { get; set; }
+
+        public Departman Departman { get; set; }
     }
 }
