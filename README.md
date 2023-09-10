@@ -56,6 +56,8 @@
 <a href="https://youtu.be/Yha-L98fdLU">27.) Asp.Net Core Mvc: Ders 27 Departman Silme</a>
 <br />
 <a href="https://youtu.be/OeMtP3E9_Ww">28.) Asp.Net Core Mvc: Ders 28 Departman Getirme</a>
+<br />
+<a href="https://youtu.be/4qOTA6-P0fI">29.) Asp.Net Core Mvc: Ders 29 Departman Güncelleme</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
