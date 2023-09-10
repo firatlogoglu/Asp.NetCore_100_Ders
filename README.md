@@ -58,6 +58,8 @@
 <a href="https://youtu.be/OeMtP3E9_Ww">28.) Asp.Net Core Mvc: Ders 28 Departman Getirme</a>
 <br />
 <a href="https://youtu.be/4qOTA6-P0fI">29.) Asp.Net Core Mvc: Ders 29 Departman Güncelleme</a>
+<br />
+<a href="https://youtu.be/qaw6JR3A8DM">30.) Asp.Net Core Mvc: Ders 30 Add Migration Update Database</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
