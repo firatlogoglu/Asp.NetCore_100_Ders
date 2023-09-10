@@ -43,5 +43,13 @@ namespace WA_04_CoreDepartman.Controllers
             var depart = c.Departmen.Find(id);
             return View("DepartmanGetir", depart);
         }
+
+        public IActionResult DepartmanGuncelle(Departman d)
+        {
+            var dep = c.Departmen.Find(d.ID);
+            dep.Ad = d.Ad;
+            c.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }
