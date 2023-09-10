@@ -1,8 +1,16 @@
-﻿
+﻿@model WA_04_CoreDepartman.Models.Departman
 @{
     ViewData["Title"] = "DepartmanGetir";
     Layout = "~/Views/Shared/_TestLayout.cshtml";
 }
 
-<h2>DepartmanGetir</h2>
-
+@using (Html.BeginForm("DepartmanGuncelle", "Depart", FormMethod.Post))
+{
+    <b>Departman ID</b>
+    @Html.TextBoxFor(x => x.ID, new { @class = "form-control" })
+    <br />
+    <b>Departman Adı</b>
+    @Html.TextBoxFor(x => x.Ad, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-info">Departman Ekle</button>
+}
