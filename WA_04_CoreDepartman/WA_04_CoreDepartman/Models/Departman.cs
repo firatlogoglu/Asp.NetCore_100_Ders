@@ -11,5 +11,7 @@ namespace WA_04_CoreDepartman.Models
         [Key]
         public int ID { get; set; }
         public string Ad { get; set; }
+
+        public List<Personel> Personels { get; set; }
     }
 }
