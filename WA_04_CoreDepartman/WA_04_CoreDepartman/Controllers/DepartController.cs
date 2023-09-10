@@ -37,5 +37,11 @@ namespace WA_04_CoreDepartman.Controllers
             c.SaveChanges();
             return RedirectToAction("Index");
         }
+
+        public IActionResult DepartmanGetir(int id)
+        {
+            var depart = c.Departmen.Find(id);
+            return View("DepartmanGetir", depart);
+        }
     }
 }
