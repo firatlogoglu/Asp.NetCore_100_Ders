@@ -11,6 +11,5 @@ namespace WA_04_CoreDepartman.Models
         [Key]
         public int ID { get; set; }
         public string Ad { get; set; }
-        public string Detay { get; set; }
     }
 }
