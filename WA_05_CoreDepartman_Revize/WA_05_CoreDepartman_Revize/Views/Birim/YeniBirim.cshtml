@@ -1,8 +1,12 @@
-﻿
+﻿@model WA_04_CoreDepartman.Models.Departman
 @{
-    ViewData["Title"] = "YeniBirim";
+    ViewData["Title"] = "YeniDepartman";
     Layout = "~/Views/Shared/_TestLayout.cshtml";
 }
-
-<h2>YeniBirim</h2>
-
+<br />
+<form class="form-group" method="post">
+    <b>Departman Adı</b>
+    @Html.TextBoxFor(x => x.Ad, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-info">Departman Ekle</button>
+</form>
