@@ -39,18 +39,18 @@ namespace WA_05_CoreDepartman_Revize.Controllers
             return RedirectToAction("Index");
         }
 
-        //public IActionResult DepartmanGetir(int id)
-        //{
-        //    var depart = c.Departmen.Find(id);
-        //    return View("DepartmanGetir", depart);
-        //}
+        public IActionResult BirimGetir(int id)
+        {
+            var depart = c.Birims.Find(id);
+            return View("BirimGetir", depart);
+        }
 
-        //public IActionResult DepartmanGuncelle(Departman d)
-        //{
-        //    var dep = c.Departmen.Find(d.ID);
-        //    dep.Ad = d.Ad;
-        //    c.SaveChanges();
-        //    return RedirectToAction("Index");
-        //}
+        public IActionResult BirimGuncelle(Birim d)
+        {
+            var dep = c.Birims.Find(d.ID);
+            dep.Ad = d.Ad;
+            c.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }
