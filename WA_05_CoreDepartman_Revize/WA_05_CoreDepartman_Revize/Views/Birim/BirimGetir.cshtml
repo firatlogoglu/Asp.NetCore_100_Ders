@@ -1,16 +1,16 @@
-﻿@model WA_04_CoreDepartman.Models.Departman
+﻿@model WA_05_CoreDepartman_Revize.Models.Birim
 @{
-    ViewData["Title"] = "DepartmanGetir";
+    ViewData["Title"] = "BirimGetir";
     Layout = "~/Views/Shared/_TestLayout.cshtml";
 }
 <br />
-@using (Html.BeginForm("DepartmanGuncelle", "Depart", FormMethod.Post))
+@using (Html.BeginForm("BirimGuncelle", "Birim", FormMethod.Post))
 {
-    <b>Departman ID</b>
+    <b>Birim ID</b>
     @Html.TextBoxFor(x => x.ID, new { @class = "form-control" })
     <br />
-    <b>Departman Adı</b>
+    <b>Birim Adı</b>
     @Html.TextBoxFor(x => x.Ad, new { @class = "form-control" })
     <br />
-    <button class="btn btn-default" style="background-color:#ebdede; color:black;">Departman Güncelle</button>
+    <button class="btn btn-default" style="background-color:#ebdede; color:black;">Birim Güncelle</button>
 }
