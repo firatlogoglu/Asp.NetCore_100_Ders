@@ -30,5 +30,27 @@ namespace WA_05_CoreDepartman_Revize.Controllers
             c.SaveChanges();
             return RedirectToAction("Index");
         }
+
+        public IActionResult DepartmanSil(int id)
+        {
+            var dep = c.Departmen.Find(id);
+            c.Departmen.Remove(dep);
+            c.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult DepartmanGetir(int id)
+        {
+            var depart = c.Departmen.Find(id);
+            return View("DepartmanGetir", depart);
+        }
+
+        public IActionResult DepartmanGuncelle(Departman d)
+        {
+            var dep = c.Departmen.Find(d.ID);
+            dep.Ad = d.Ad;
+            c.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }
