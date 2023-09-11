@@ -16,5 +16,19 @@ namespace WA_05_CoreDepartman_Revize.Controllers
             var degerler = c.Birims.ToList();
             return View(degerler);
         }
+
+        [HttpGet]
+        public IActionResult YeniDepartman()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult YeniDepartman(Departman d)
+        {
+            c.Departmen.Add(d);
+            c.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }
