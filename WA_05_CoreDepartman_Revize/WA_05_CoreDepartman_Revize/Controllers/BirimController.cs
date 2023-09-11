@@ -18,15 +18,15 @@ namespace WA_05_CoreDepartman_Revize.Controllers
         }
 
         [HttpGet]
-        public IActionResult YeniDepartman()
+        public IActionResult YeniBirim()
         {
             return View();
         }
 
         [HttpPost]
-        public IActionResult YeniDepartman(Departman d)
+        public IActionResult YeniBirim(Birim b)
         {
-            c.Departmen.Add(d);
+            c.Birims.Add(b);
             c.SaveChanges();
             return RedirectToAction("Index");
         }
