@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,7 @@ namespace WA_05_CoreDepartman_Revize.Controllers
 
         public IActionResult Index()
         {
-            var degerler = c.Personels.ToList();
+            var degerler = c.Personels.Include(x => x.Birim).ToList();
             return View(degerler);
         }
     }
