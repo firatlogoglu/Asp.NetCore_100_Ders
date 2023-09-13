@@ -72,6 +72,8 @@
 <a href="https://youtu.be/1i1DBNzQdv8">35.) Asp.Net Core Mvc: Ders 35 Proje Revize - 2</a>
 <br />
 <a href="https://youtu.be/Fe-dodGK0GA">36.) Asp.Net Core Mvc: Ders 36 Personel Listesi</a>
+<br />
+<a href="https://youtu.be/9MJXZ4pMjYY">37.) Asp.Net Core Mvc: Ders 37 Personellere Ait Birimleri Listeleme (Include)</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
