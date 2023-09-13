@@ -74,6 +74,8 @@
 <a href="https://youtu.be/Fe-dodGK0GA">36.) Asp.Net Core Mvc: Ders 36 Personel Listesi</a>
 <br />
 <a href="https://youtu.be/9MJXZ4pMjYY">37.) Asp.Net Core Mvc: Ders 37 Personellere Ait Birimleri Listeleme (Include)</a>
+<br />
+<a href="https://youtu.be/pymwlFCobC4">38.) Asp.Net Core Mvc: Ders 38 Dropdownliste Birimleri Çekme</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
