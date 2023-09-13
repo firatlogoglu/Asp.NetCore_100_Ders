@@ -1,8 +1,33 @@
-﻿
+﻿@using WA_04_CoreDepartman.Models
+@model List<Personel>
+
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_TestLayout.cshtml";
 }
 
-<h2>Index</h2>
-
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Ad</th>
+        <th>Soyad</th>
+        <th>Şehir</th>
+        <th>Departman</th>
+        <th>Güncelle</th>
+        <th>Sil</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.ID</td>
+            <td>@x.Ad</td>
+            <td>@x.Soyad</td>
+            <td>@x.Sehir</td>
+            <td>@x.Departman.ID</td>
+            <td><a href="/Depart/DepartmanGetir/@x.ID" class="btn btn-success">Güncelle</a></td>
+            <td><a href="/Depart/DepartmanSil/@x.ID" class="btn btn-danger">Sil</a></td>
+        </tr>
+    }
+</table>
+<a href="/Depart/YeniDepartman/" class="btn btn-primary">Yeni Personel</a>
