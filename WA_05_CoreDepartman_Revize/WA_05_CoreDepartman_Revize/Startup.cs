@@ -53,7 +53,7 @@ namespace WA_05_CoreDepartman_Revize
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Birim}/{action=Index}/{id?}");
             });
         }
     }
