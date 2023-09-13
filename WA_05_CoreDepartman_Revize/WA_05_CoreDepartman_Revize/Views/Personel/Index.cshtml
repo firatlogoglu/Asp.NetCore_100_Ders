@@ -1,4 +1,4 @@
-﻿@using WA_04_CoreDepartman.Models
+﻿@using WA_05_CoreDepartman_Revize.Models
 @model List<Personel>
 
 @{
@@ -13,7 +13,7 @@
         <th>Ad</th>
         <th>Soyad</th>
         <th>Şehir</th>
-        <th>Departman</th>
+        <th>Birim</th>
         <th>Güncelle</th>
         <th>Sil</th>
     </tr>
@@ -24,7 +24,7 @@
             <td>@x.Ad</td>
             <td>@x.Soyad</td>
             <td>@x.Sehir</td>
-            <td>@x.Departman.ID</td>
+            <td></td>
             <td><a href="/Depart/DepartmanGetir/@x.ID" class="btn btn-success">Güncelle</a></td>
             <td><a href="/Depart/DepartmanSil/@x.ID" class="btn btn-danger">Sil</a></td>
         </tr>
