@@ -17,5 +17,11 @@ namespace WA_05_CoreDepartman_Revize.Controllers
             var degerler = c.Personels.Include(x => x.Birim).ToList();
             return View(degerler);
         }
+
+        [HttpGet]
+        public IActionResult YeniPersonel()
+        {
+            return View();
+        }
     }
 }
