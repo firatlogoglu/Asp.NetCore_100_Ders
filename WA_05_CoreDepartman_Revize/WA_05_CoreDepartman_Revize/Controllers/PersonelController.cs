@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -21,6 +22,12 @@ namespace WA_05_CoreDepartman_Revize.Controllers
         [HttpGet]
         public IActionResult YeniPersonel()
         {
+            List<SelectListItem> degerler = (from x in c.Birims.ToList()
+                                             select new SelectListItem
+                                             {
+                                                 Text = x.Ad,
+                                                 Value = x.ID.ToString()
+                                             }).ToList();
             return View();
         }
     }
