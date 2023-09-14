@@ -28,6 +28,8 @@ namespace WA_05_CoreDepartman_Revize.Controllers
                                                  Text = x.Ad,
                                                  Value = x.ID.ToString()
                                              }).ToList();
+            ViewBag.dgr = degerler;
+
             return View();
         }
     }
