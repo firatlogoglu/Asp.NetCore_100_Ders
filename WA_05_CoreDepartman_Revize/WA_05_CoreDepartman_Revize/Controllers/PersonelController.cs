@@ -32,5 +32,15 @@ namespace WA_05_CoreDepartman_Revize.Controllers
 
             return View();
         }
+
+        public IActionResult YeniPersonel(Personel p)
+        {
+            var per = c.Birims.Where(x => x.ID == p.Birim.ID).FirstOrDefault();
+            p.Birim = per;
+            c.Personels.Add(p);
+            c.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
     }
 }
