@@ -1,8 +1,30 @@
-﻿
+﻿@using WA_05_CoreDepartman_Revize.Models
+@model List<Personel>
 @{
     ViewData["Title"] = "BirimDetay";
     Layout = "~/Views/Shared/_TestLayout.cshtml";
 }
-
-<h2>BirimDetay</h2>
-
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Ad</th>
+        <th>Soyad</th>
+        <th>Şehir</th>
+        <th>Birim</th>
+        <th>Güncelle</th>
+        <th>Sil</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.ID</td>
+            <td>@x.Ad</td>
+            <td>@x.Soyad</td>
+            <td>@x.Sehir</td>
+            <td>@x.Birim.Ad</td>
+            <td><a href="/Depart/DepartmanGetir/@x.ID" class="btn btn-success">Güncelle</a></td>
+            <td><a href="/Depart/DepartmanSil/@x.ID" class="btn btn-danger">Sil</a></td>
+        </tr>
+    }
+</table>
