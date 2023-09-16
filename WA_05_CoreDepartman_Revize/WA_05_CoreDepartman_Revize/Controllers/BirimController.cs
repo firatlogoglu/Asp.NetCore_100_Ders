@@ -52,5 +52,11 @@ namespace WA_05_CoreDepartman_Revize.Controllers
             c.SaveChanges();
             return RedirectToAction("Index");
         }
+
+        public IActionResult BirimDetay(int id)
+        {
+            var degeler = c.Personels.Where(x => x.BirimID == id).ToList();
+            return View(degeler);
+        }
     }
 }
