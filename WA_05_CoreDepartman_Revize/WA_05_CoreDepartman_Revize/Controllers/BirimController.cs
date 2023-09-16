@@ -57,6 +57,7 @@ namespace WA_05_CoreDepartman_Revize.Controllers
         {
             var degeler = c.Personels.Where(x => x.BirimID == id).ToList();
             var brmad = c.Birims.Where(x => x.ID == id).Select(y => y.Ad).FirstOrDefault();
+            ViewBag.brm = brmad;
             return View(degeler);
         }
     }
