@@ -84,6 +84,8 @@
 <a href="https://youtu.be/tbyLtgib03s">41.) Asp.Net Core Mvc: Ders 41 Birim Adını Getirme</a>
 <br />
 <a href="https://youtu.be/0BbKNpn72U0">42.) Asp.Net Core Mvc: Ders 42 Login Teması Entegre Etme</a>
+<br />
+<a href="https://youtu.be/mG8n40u40gc">43.) Asp.Net Core Mvc: Ders 43 Admin Sınıfı ve Migration</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
