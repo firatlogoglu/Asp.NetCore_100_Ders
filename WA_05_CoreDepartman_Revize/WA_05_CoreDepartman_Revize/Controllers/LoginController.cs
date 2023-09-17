@@ -12,5 +12,10 @@ namespace WA_05_CoreDepartman_Revize.Controllers
         {
             return View();
         }
+
+        public IActionResult GirisYap()
+        {
+            return View();
+        }
     }
 }
