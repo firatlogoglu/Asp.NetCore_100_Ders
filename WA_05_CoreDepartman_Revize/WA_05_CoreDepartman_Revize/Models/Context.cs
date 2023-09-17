@@ -15,5 +15,6 @@ namespace WA_05_CoreDepartman_Revize.Models
 
         public DbSet<Birim> Birims { get; set; }
         public DbSet<Personel> Personels { get; set; }
+        public DbSet<Admin> Admins { get; set; }
     }
 }
