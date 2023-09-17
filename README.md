@@ -82,6 +82,8 @@
 <a href="https://youtu.be/0X6fWUqwJbs">40.) Asp.Net Core Mvc: Ders 40 Birime Ait Personelleri Listeleme</a>
 <br />
 <a href="https://youtu.be/tbyLtgib03s">41.) Asp.Net Core Mvc: Ders 41 Birim Adını Getirme</a>
+<br />
+<a href="https://youtu.be/0BbKNpn72U0">42.) Asp.Net Core Mvc: Ders 42 Login Teması Entegre Etme</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
