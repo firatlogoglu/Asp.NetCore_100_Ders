@@ -50,6 +50,7 @@ namespace WA_05_CoreDepartman_Revize
                 app.UseExceptionHandler("/Home/Error");
             }
 
+            app.UseAuthentication();
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
