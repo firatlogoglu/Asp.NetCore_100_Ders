@@ -88,6 +88,8 @@
 <a href="https://youtu.be/mG8n40u40gc">43.) Asp.Net Core Mvc: Ders 43 Admin Sınıfı ve Migration</a>
 <br />
 <a href="https://youtu.be/GfguqQ8NXII">44.) Asp.Net Core Mvc: Ders 44 Authorize İşlemi</a>
+<br />
+<a href="https://youtu.be/Pl5SWwLG10o">45.) Asp.Net Core Mvc: Ders 45 Login İşlemi</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
