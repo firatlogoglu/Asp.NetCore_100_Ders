@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -13,6 +14,7 @@ namespace WA_05_CoreDepartman_Revize.Controllers
     {
         Context c = new Context();
 
+        [Authorize]
         public IActionResult Index()
         {
             var degerler = c.Personels.Include(x => x.Birim).ToList();
