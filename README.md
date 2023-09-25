@@ -90,6 +90,9 @@
 <a href="https://youtu.be/GfguqQ8NXII">44.) Asp.Net Core Mvc: Ders 44 Authorize İşlemi</a>
 <br />
 <a href="https://youtu.be/Pl5SWwLG10o">45.) Asp.Net Core Mvc: Ders 45 Login İşlemi</a>
+<br />
+<a href="https://youtu.be/ZJeytN08RKY">46.) Asp.Net Core Mvc: Ders 46 ~ 2.Projede Neler Yapacağız</a> | <a href="https://www.youtube.com/playlist?list=PL2Q8rFbm-4ruplp2SRUTQjZaFfxh-knS0">Asp.Net Core MVC - Complete APPLICATION</a>
+
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
