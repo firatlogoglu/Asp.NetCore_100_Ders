@@ -10,5 +10,7 @@ namespace WA_06_CoreAndFood.Data.Models
         public int ID { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
+
+        public List<Food> Foods { get; set; }
     }
 }
