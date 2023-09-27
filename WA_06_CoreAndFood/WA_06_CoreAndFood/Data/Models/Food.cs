@@ -15,5 +15,8 @@ namespace WA_06_CoreAndFood.Data.Models
         public string ImageURL { get; set; }
         public string ThumbNailImageURL { get; set; }
         public int Stock { get; set; }
+
+        public int CategoryID { get; set; }
+        public virtual Category Category { get; set; }
     }
 }
