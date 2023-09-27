@@ -94,6 +94,8 @@
 <a href="https://youtu.be/ZJeytN08RKY">46.) Asp.Net Core Mvc: Ders 46 ~ 2.Projede Neler Yapacağız</a> | <a href="https://www.youtube.com/playlist?list=PL2Q8rFbm-4ruplp2SRUTQjZaFfxh-knS0">Asp.Net Core MVC - Complete APPLICATION</a>
 <br />
 <a href="https://youtu.be/s1CqU4xqIUU">47.) Asp.Net Core Mvc: Ders 47 Proje 2 Modelin Oluşturulması ve Sınıfların Tanımlanması</a>
+<br />
+<a href="https://youtu.be/jB-_m4rZuas">48.) Asp.Net Core Mvc: Ders 48 "Food And Core" Projesi İlişkilerin Kurulması</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
