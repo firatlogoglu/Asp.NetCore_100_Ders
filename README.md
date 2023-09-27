@@ -98,6 +98,8 @@
 <a href="https://youtu.be/jB-_m4rZuas">48.) Asp.Net Core Mvc: Ders 48 "Food And Core" Projesi İlişkilerin Kurulması</a>
 <br />
 <a href="https://youtu.be/oNgRRNpaq-Y">49.) Asp.Net Core Mvc: Ders 49 Context Sınıfı</a>
+<br />
+<a href="https://youtu.be/y7oufsdhS_k">50.) Asp.Net Core Mvc: Ders 50 Entity Paketlerinin Yüklenmesi</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
