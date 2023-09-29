@@ -106,6 +106,8 @@
 <a href="https://youtu.be/q6-ROeM4wSw">52.) Asp.Net Core Mvc: Ders 52 Category Repository</a>
 <br />
 <a href="https://youtu.be/3V8-avJcj-M">53.) Asp.Net Core Mvc: Ders 53 Food Repository</a>
+<br />
+<a href="https://youtu.be/wcLG7iUznmM">54.) Asp.Net Core Mvc: Ders 54 Generic Repository</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
