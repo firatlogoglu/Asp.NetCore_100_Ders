@@ -6,7 +6,7 @@ using WA_06_CoreAndFood.Data.Models;
 
 namespace WA_06_CoreAndFood.Repositories
 {
-    public class CategoryRepository
+    public class CategoryRepository : GenericRepository<Category>
     {
 
     }
