@@ -10,30 +10,30 @@ namespace WA_06_CoreAndFood.Repositories
     {
         Context c = new Context();
 
-        public List<T> CategoryList()
+        public List<T> TList()
         {
             return c.Set<T>().ToList();
         }
 
-        public void CategoryAdd(T p)
+        public void TAdd(T p)
         {
             c.Set<T>().Add(p);
             c.SaveChanges();
         }
 
-        public void CategoryDelete(T p)
+        public void TDelete(T p)
         {
             c.Set<T>().Remove(p);
             c.SaveChanges();
         }
 
-        public void CategoryUpdate(T p)
+        public void TUpdate(T p)
         {
             c.Set<T>().Update(p);
             c.SaveChanges();
         }
 
-        public void GetCategory(int id)
+        public void TGet(int id)
         {
             c.Set<T>().Find(id);
         }
