@@ -1,8 +1,23 @@
-﻿
+﻿@model List<WA_06_CoreAndFood.Data.Models.Category>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
-
+<h2>Category List</h2>
+<br />
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Category Name</th>
+        <th>Update</th>
+        <th>Delete</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.ID</td>
+            <td>@x.Name</td>
+        </tr>
+    }
+</table>
