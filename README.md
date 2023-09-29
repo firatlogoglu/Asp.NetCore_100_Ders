@@ -112,6 +112,8 @@
 <a href="https://youtu.be/oG2h2Fgq-S4">55.) Asp.Net Core Mvc: Ders 55 Generic Metot İsimleri ve Route Config Ayarları</a>
 <br />
 <a href="https://youtu.be/N5ti7yTH2pc">56.) Asp.Net Core Mvc: Ders 56 Core And Food Projesi Controller Oluşturma</a>
+<br />
+<a href="https://youtu.be/xeT3qNP_3pc">57.) Asp.Net Core Mvc: Ders 57 Category View Ve Layout</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
