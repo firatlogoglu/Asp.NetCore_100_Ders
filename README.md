@@ -104,6 +104,8 @@
 <a href="https://youtu.be/vYOg1F4XK2g">51.) Asp.Net Core Mvc: Ders 51 Food an Core Projesi Add Migration</a>
 <br />
 <a href="https://youtu.be/q6-ROeM4wSw">52.) Asp.Net Core Mvc: Ders 52 Category Repository</a>
+<br />
+<a href="https://youtu.be/3V8-avJcj-M">53.) Asp.Net Core Mvc: Ders 53 Food Repository</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
