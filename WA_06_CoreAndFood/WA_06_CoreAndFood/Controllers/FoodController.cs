@@ -16,11 +16,13 @@ namespace WA_06_CoreAndFood.Controllers
             return View(foodRepository.TList("Category"));
         }
 
+        [HttpGet]
         public IActionResult AddFood()
         {
             return View();
         }
 
+        [HttpPost]
         public IActionResult AddFood(Food p)
         {
             return View();
