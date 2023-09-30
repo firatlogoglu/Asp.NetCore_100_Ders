@@ -1,8 +1,18 @@
-﻿
+﻿@model WA_06_CoreAndFood.Data.Models.Food
 @{
     ViewData["Title"] = "AddFood";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>AddFood</h2>
-
+<h2>Food Add Page</h2>
+<br />
+@using (Html.BeginForm("CategoryAdd", "Category", FormMethod.Post))
+{
+    @Html.Label("Food Name")
+    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+    <br />
+    @Html.LabelFor(x => x.Stock)
+    @Html.TextBoxFor(x => x.Stock, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-info">Save</button>
+}
