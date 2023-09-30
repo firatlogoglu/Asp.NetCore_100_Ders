@@ -1,8 +1,13 @@
-﻿
+﻿@model WA_06_CoreAndFood.Data.Models.Category
 @{
     ViewData["Title"] = "CategoryAdd";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>Category Add Page</h2>
-
+<br />
+@using (Html.BeginForm("CategoryAdd", "Category", FormMethod.Post))
+{
+    @Html.LabelFor(x => x.Name)
+    @Html.TextBoxFor(x => x.Name)
+}
