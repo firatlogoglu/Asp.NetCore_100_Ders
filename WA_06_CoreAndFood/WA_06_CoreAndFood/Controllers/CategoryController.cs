@@ -27,7 +27,7 @@ namespace WA_06_CoreAndFood.Controllers
         public IActionResult CategoryAdd(Category p)
         {
             categoryRepository.TAdd(p);
-            return View();
+            return RedirectToAction("Index");
         }
     }
 }
