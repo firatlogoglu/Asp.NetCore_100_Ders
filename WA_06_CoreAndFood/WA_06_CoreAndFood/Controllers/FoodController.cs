@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,16 @@ namespace WA_06_CoreAndFood.Controllers
         [HttpGet]
         public IActionResult AddFood()
         {
+            CategoryRepository categoryRepository = new CategoryRepository();
+
+            List<SelectListItem> values = (from x in categoryRepository.TList()
+                                           select new SelectListItem
+                                           {
+                                               Text = x.Name,
+                                               Value = x.ID.ToString()
+                                           }).ToList();
+            ViewBag.v1 = values;
+
             return View();
         }
 
