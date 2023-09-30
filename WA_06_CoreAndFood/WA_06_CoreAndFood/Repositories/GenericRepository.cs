@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -36,6 +37,11 @@ namespace WA_06_CoreAndFood.Repositories
         public void TGet(int id)
         {
             c.Set<T>().Find(id);
+        }
+
+        public List<T> TList(string p)
+        {
+            return c.Set<T>().Include(p).ToList();
         }
     }
 }
