@@ -114,6 +114,8 @@
 <a href="https://youtu.be/N5ti7yTH2pc">56.) Asp.Net Core Mvc: Ders 56 Core And Food Projesi Controller Oluşturma</a>
 <br />
 <a href="https://youtu.be/xeT3qNP_3pc">57.) Asp.Net Core Mvc: Ders 57 Category View Ve Layout</a>
+<br />
+<a href="https://youtu.be/InLFy54fjVw">58.) Asp.Net Core Mvc: Ders 58 Food View ve List</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
