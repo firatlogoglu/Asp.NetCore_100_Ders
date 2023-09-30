@@ -12,7 +12,7 @@ namespace WA_06_CoreAndFood.Controllers
         public IActionResult Index()
         {
             FoodRepository foodRepository = new FoodRepository();
-            return View(foodRepository.TList());
+            return View(foodRepository.TList("Category"));
         }
     }
 }
