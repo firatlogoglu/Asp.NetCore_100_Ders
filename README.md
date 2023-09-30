@@ -118,6 +118,8 @@
 <a href="https://youtu.be/InLFy54fjVw">58.) Asp.Net Core Mvc: Ders 58 Food View ve List</a>
 <br />
 <a href="https://youtu.be/WkapQ2pydGg">59.) Asp.Net Core Mvc: Ders 59 Include Metodu ve Food Category Listesi</a>
+<br />
+<a href="https://youtu.be/bAD2WAh81IU">60.) Asp.Net Core Mvc: Ders 60 Add Category</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
