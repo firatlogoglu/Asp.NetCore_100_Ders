@@ -1,15 +1,17 @@
-﻿
+﻿@model List<WA_06_CoreAndFood.Data.Models.Food>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Category List</h2>
+<h2>Food List</h2>
 <br />
 <table class="table table-bordered">
     <tr>
         <th>ID</th>
+        <th>Food Name</th>
         <th>Category Name</th>
+        <th>Details</th>
         <th>Update</th>
         <th>Delete</th>
     </tr>
@@ -18,9 +20,11 @@
         <tr>
             <td>@x.ID</td>
             <td>@x.Name</td>
+            <td></td>
+            <td><a href="#" class="btn btn-info">Details</a></td>
             <td><a href="#" class="btn btn-success">Update</a></td>
             <td><a href="#" class="btn btn-danger">Delete</a></td>
         </tr>
     }
 </table>
-<a href="#" class="btn btn-primary">New Category</a>
+<a href="#" class="btn btn-primary">New Food</a>
