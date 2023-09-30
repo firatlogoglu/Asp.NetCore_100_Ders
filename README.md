@@ -122,6 +122,8 @@
 <a href="https://youtu.be/bAD2WAh81IU">60.) Asp.Net Core Mvc: Ders 60 Add Category</a>
 <br />
 <a href="https://youtu.be/an5G-rLv8pI">61.) Asp.Net Core Mvc: Ders 61 Add Food Design</a>
+<br />
+<a href="https://youtu.be/DWgeAzrhYiI">62.) Asp.Net Core Mvc: Ders 62 Category Data Validation</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
