@@ -10,8 +10,10 @@ namespace WA_06_CoreAndFood.Data.Models
     {
         public int ID { get; set; }
 
-        [Required(ErrorMessage ="Category Name Not Empty")]
+        [Required(ErrorMessage = "Category Name Not Empty")]
+        [StringLength(20, ErrorMessage = "Please only enter 4-20 length characters", MinimumLength = 4)]
         public string Name { get; set; }
+
         public string Description { get; set; }
 
         public List<Food> Foods { get; set; }
