@@ -126,6 +126,8 @@
 <a href="https://youtu.be/DWgeAzrhYiI">62.) Asp.Net Core Mvc: Ders 62 Category Data Validation</a>
 <br />
 <a href="https://youtu.be/PE_ToZAfJ38">63.) Asp.Net Core Mvc: Ders 63 Kategorilerin DropDownList'e Çekilmesi</a>
+<br />
+<a href="https://youtu.be/9mZiCZvxnfE">64.) Asp.Net Core Mvc: Ders 64 String Length Validation</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
