@@ -13,7 +13,7 @@ namespace WA_06_CoreAndFood.Controllers
         CategoryRepository categoryRepository = new CategoryRepository();
 
         public IActionResult Index()
-        {         
+        {
             return View(categoryRepository.TList());
         }
 
@@ -26,7 +26,7 @@ namespace WA_06_CoreAndFood.Controllers
         [HttpPost]
         public IActionResult CategoryAdd(Category p)
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return View("CategoryAdd");
             }
@@ -45,6 +45,18 @@ namespace WA_06_CoreAndFood.Controllers
             };
 
             return View(ct);
+        }
+
+        [HttpPost]
+        public IActionResult CategoryUpdate(Category p)
+        {
+            var x = categoryRepository.TGet(p.ID);
+            x.Name = p.Name;
+            x.Description = p.Description;
+            x.Status = true;
+            categoryRepository.TUpdate(x);
+
+            return RedirectToAction("Index");
         }
     }
 }
