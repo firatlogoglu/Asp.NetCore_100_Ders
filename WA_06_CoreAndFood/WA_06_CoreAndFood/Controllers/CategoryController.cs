@@ -37,7 +37,14 @@ namespace WA_06_CoreAndFood.Controllers
         public IActionResult CategoryGet(int id)
         {
             var x = categoryRepository.TGet(id);
-            return View();
+            Category ct = new Category()
+            {
+                ID = x.ID,
+                Name = x.Name,
+                Description = x.Description,
+            };
+
+            return View(ct);
         }
     }
 }
