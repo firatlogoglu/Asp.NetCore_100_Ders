@@ -34,9 +34,9 @@ namespace WA_06_CoreAndFood.Repositories
             c.SaveChanges();
         }
 
-        public void TGet(int id)
+        public T TGet(int id)
         {
-            c.Set<T>().Find(id);
+            return c.Set<T>().Find(id);
         }
 
         public List<T> TList(string p)
