@@ -71,5 +71,21 @@ namespace WA_06_CoreAndFood.Controllers
 
             return View(f);
         }
+
+        [HttpPost]
+        public IActionResult FoodUpdate(Food p)
+        {
+            var x = foodRepository.TGet(p.ID);
+            x.Name = p.Name;
+            x.Stock = p.Stock;
+            x.Price = p.Price;
+            x.ImageURL = p.ImageURL;
+            x.Description = p.Description;
+            x.CategoryID = p.CategoryID;
+
+            foodRepository.TUpdate(x);
+
+            return RedirectToAction("Index");
+        }
     }
 }
