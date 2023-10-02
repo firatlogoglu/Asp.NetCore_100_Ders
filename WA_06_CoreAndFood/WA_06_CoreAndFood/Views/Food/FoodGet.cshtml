@@ -6,8 +6,11 @@
 
 <h2>Food Add Page</h2>
 <br />
-@using (Html.BeginForm("AddFood", "Food", FormMethod.Post))
+@using (Html.BeginForm("FoodUpdate", "Food", FormMethod.Post))
 {
+    @Html.Label("Food ID")
+    @Html.TextBoxFor(x => x.ID, new { @class = "form-control" })
+    <br />
     @Html.Label("Food Name")
     @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
     <br />
