@@ -11,9 +11,10 @@ namespace WA_06_CoreAndFood.Controllers
 {
     public class FoodController : Controller
     {
+        FoodRepository foodRepository = new FoodRepository();
+
         public IActionResult Index()
         {
-            FoodRepository foodRepository = new FoodRepository();
             return View(foodRepository.TList("Category"));
         }
 
@@ -36,7 +37,8 @@ namespace WA_06_CoreAndFood.Controllers
         [HttpPost]
         public IActionResult AddFood(Food p)
         {
-            return View();
+            foodRepository.TAdd(p);
+            return RedirectToAction("Index");
         }
     }
 }
