@@ -58,5 +58,14 @@ namespace WA_06_CoreAndFood.Controllers
 
             return RedirectToAction("Index");
         }
+
+        public IActionResult CategoryDelete(int id)
+        {
+            var x = categoryRepository.TGet(id);
+            x.Status = false;
+            categoryRepository.TUpdate(x);
+
+            return RedirectToAction("Index");
+        }
     }
 }
