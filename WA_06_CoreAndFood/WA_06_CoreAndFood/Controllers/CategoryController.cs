@@ -33,5 +33,11 @@ namespace WA_06_CoreAndFood.Controllers
             categoryRepository.TAdd(p);
             return RedirectToAction("Index");
         }
+
+        public IActionResult CategoryGet(int id)
+        {
+            var x = categoryRepository.TGet(id);
+            return View();
+        }
     }
 }
