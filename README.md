@@ -132,6 +132,8 @@
 <a href="https://youtu.be/Owkm6PS_pu0">65.) Asp.Net Core Mvc: Ders 65 Add Food</a>
 <br />
 <a href="https://youtu.be/lGdRp0VfZ8E">66.) Asp.Net Core Mvc: Ders 66 Delete Food</a>
+<br />
+<a href="https://youtu.be/o9F8zGUuu6I">67.) Asp.Net Core Mvc: Ders 67 Migration Add Column</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
