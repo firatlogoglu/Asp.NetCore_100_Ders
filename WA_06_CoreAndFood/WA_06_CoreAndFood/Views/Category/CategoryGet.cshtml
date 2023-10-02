@@ -8,6 +8,9 @@
 <br />
 @using (Html.BeginForm("CategoryAdd", "Category", FormMethod.Post))
 {
+    @Html.LabelFor(x => x.ID)
+    @Html.TextBoxFor(x => x.ID, new { @class = "form-control" })
+    <br />
     @Html.LabelFor(x => x.Name)
     @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
     @Html.ValidationMessageFor(x => x.Name, "", new { @style = "color:red" })
