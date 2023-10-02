@@ -136,6 +136,8 @@
 <a href="https://youtu.be/o9F8zGUuu6I">67.) Asp.Net Core Mvc: Ders 67 Migration Add Column</a>
 <br />
 <a href="https://youtu.be/iJGGFZDMU4U">68.) Asp.Net Core Mvc: Ders 68 Get Category</a>
+<br />
+<a href="https://youtu.be/U4YylIXfRe8">69.) Asp.Net Core Mvc: Ders 69 Update Category</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
