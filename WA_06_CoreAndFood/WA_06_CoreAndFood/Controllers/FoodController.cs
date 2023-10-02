@@ -46,5 +46,30 @@ namespace WA_06_CoreAndFood.Controllers
             foodRepository.TDelete(new Food { ID = id });
             return RedirectToAction("Index");
         }
+
+        public IActionResult FoodGet(int id)
+        {
+            var x = foodRepository.TGet(id);
+            Food f = new Food()
+            {
+                Name = x.Name,
+                Price = x.Price,
+                Stock = x.Stock,
+                ImageURL = x.ImageURL,
+                Description = x.Description,
+                CategoryID = x.CategoryID
+            };
+
+            CategoryRepository categoryRepository = new CategoryRepository();
+            List<SelectListItem> values = (from c in categoryRepository.TList()
+                                           select new SelectListItem
+                                           {
+                                               Text = c.Name,
+                                               Value = c.ID.ToString()
+                                           }).ToList();
+            ViewBag.v1 = values;
+
+            return View(f);
+        }
     }
 }
