@@ -40,5 +40,11 @@ namespace WA_06_CoreAndFood.Controllers
             foodRepository.TAdd(p);
             return RedirectToAction("Index");
         }
+
+        public IActionResult DeleteFood(int id)
+        {
+            foodRepository.TDelete(new Food { ID = id });
+            return RedirectToAction("Index");
+        }
     }
 }
