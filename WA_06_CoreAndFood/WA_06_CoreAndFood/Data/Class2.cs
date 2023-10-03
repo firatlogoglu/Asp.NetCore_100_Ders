@@ -7,5 +7,7 @@ namespace WA_06_CoreAndFood.Data
 {
     public class Class2
     {
+        public string FoodName { get; set; }
+        public int Stock { get; set; }
     }
 }
