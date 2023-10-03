@@ -14,6 +14,11 @@ namespace WA_06_CoreAndFood.Controllers
             return View();
         }
 
+        public IActionResult Index2()
+        {
+            return View();
+        }
+
         public IActionResult VisualizeProductResult()
         {
             return Json(ProList());
