@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WA_06_CoreAndFood.Data;
+using WA_06_CoreAndFood.Repositories;
 
 namespace WA_06_CoreAndFood.Controllers
 {
@@ -43,6 +44,30 @@ namespace WA_06_CoreAndFood.Controllers
                 Stock = 220
             });
             return cs;
+        }
+
+        public IActionResult Index3()
+        {
+            return View();
+        }
+
+        public IActionResult VisualizeProductResult2()
+        {
+            return Json(FoodList());
+        }
+
+        public List<Class2> FoodList()
+        {
+            List<Class2> cs2 = new List<Class2>();
+            FoodRepository f = new FoodRepository();
+
+            cs2 = f.TList().Select(x => new Class2
+            {
+                FoodName = x.Name,
+                Stock = x.Stock
+            }).ToList();
+
+            return cs2;
         }
     }
 }

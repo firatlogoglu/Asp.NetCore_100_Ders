@@ -148,6 +148,8 @@
 <a href="https://youtu.be/7wrVFNeoacw">73.) Asp.Net Core Mvc: Ders 73 Paging</a>
 <br />
 <a href="https://youtu.be/hv7emNm_MKo">74.) Asp.Net Core Mvc: Ders 74 Google Chart Kullanımı</a>
+<br />
+<a href="https://youtu.be/zlKEnLy6YUM">75.) Asp.Net Core Mvc: Ders 75 Dynamic Google Chart</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
