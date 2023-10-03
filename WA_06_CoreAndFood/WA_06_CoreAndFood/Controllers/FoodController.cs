@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using WA_06_CoreAndFood.Data.Models;
 using WA_06_CoreAndFood.Repositories;
+using X.PagedList;
 
 namespace WA_06_CoreAndFood.Controllers
 {
@@ -13,9 +14,9 @@ namespace WA_06_CoreAndFood.Controllers
     {
         FoodRepository foodRepository = new FoodRepository();
 
-        public IActionResult Index()
+        public IActionResult Index(int page = 1)
         {
-            return View(foodRepository.TList("Category"));
+            return View(foodRepository.TList("Category").ToPagedList(page, 3));
         }
 
         [HttpGet]
