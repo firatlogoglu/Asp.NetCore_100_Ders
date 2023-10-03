@@ -47,14 +47,14 @@
                 bar: { groupWidth: "20%" },
             };
 
-            var columnChart = new google.visualization.PieChart(document
-                .getElementById('Piechart_div'));
+            var columnChart = new google.visualization.columnChart(document
+                .getElementById('columnChart_div'));
 
             columnChart.draw(data, columnChartOptions);
         }
     </script>
 </head>
 <body>
-    <div id="Piechart_div"></div>
+    <div id="columnChart_div"></div>
 </body>
 </html>
