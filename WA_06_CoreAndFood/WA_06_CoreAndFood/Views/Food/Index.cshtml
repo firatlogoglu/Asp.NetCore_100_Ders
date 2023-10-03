@@ -1,4 +1,6 @@
-﻿@model List<WA_06_CoreAndFood.Data.Models.Food>
+﻿@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+@model IPagedList<WA_06_CoreAndFood.Data.Models.Food>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
