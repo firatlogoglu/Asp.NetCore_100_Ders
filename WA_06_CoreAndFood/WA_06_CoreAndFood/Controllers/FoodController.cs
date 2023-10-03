@@ -14,9 +14,9 @@ namespace WA_06_CoreAndFood.Controllers
     {
         FoodRepository foodRepository = new FoodRepository();
 
-        public IActionResult Index()
+        public IActionResult Index(int page = 1)
         {
-            return View(foodRepository.TList("Category").ToPagedList(1, 3));
+            return View(foodRepository.TList("Category").ToPagedList(page, 3));
         }
 
         [HttpGet]
