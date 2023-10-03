@@ -17,7 +17,7 @@
                 type: "POST",
                 dataType: "json",
                 contentType: "application/json",
-                url: '@Url.Action("VisualizeUrunResult", "Chart")',
+                url: '@Url.Action("VisualizeProductResult", "Chart")',
                 success: function (result) {
                     google.charts.load('current', {
                         'packages': ['corechart']
@@ -36,7 +36,7 @@
             var dataArray = [];
 
             $.each(result, function (i, obj) {
-                dataArray.push([obj.ad, obj.sayi]);
+                dataArray.push([obj.proName, obj.stock]);
             });
             data.addRows(dataArray);
 
