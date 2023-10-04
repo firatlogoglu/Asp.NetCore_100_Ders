@@ -1,0 +1,3 @@
+[submodule "WA_06_CoreAndFood/WA_06_CoreAndFood/wwwroot/CoreTemplateWeb2"]
+	path = WA_06_CoreAndFood/WA_06_CoreAndFood/wwwroot/CoreTemplateWeb2
+	url = https://github.com/MuratYucedag/CoreTemplateWeb2.git

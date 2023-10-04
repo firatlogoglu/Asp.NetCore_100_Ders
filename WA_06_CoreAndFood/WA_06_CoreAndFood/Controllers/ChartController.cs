@@ -69,5 +69,10 @@ namespace WA_06_CoreAndFood.Controllers
 
             return cs2;
         }
+
+        public IActionResult Statistics()
+        {
+            return View();
+        }
     }
 }

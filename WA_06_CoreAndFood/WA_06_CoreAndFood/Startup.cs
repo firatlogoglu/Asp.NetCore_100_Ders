@@ -31,6 +31,8 @@ namespace WA_06_CoreAndFood
             //    await context.Response.WriteAsync("Hello World!");
             //});
 
+            app.UseStaticFiles();
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
