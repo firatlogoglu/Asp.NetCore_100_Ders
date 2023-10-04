@@ -87,6 +87,9 @@ namespace WA_06_CoreAndFood.Controllers
             var deger4 = f.TList().Where(x => x.CategoryID == 2).Count();
             ViewBag.d4 = deger4;
 
+            var deger5 = f.TList().Sum(x => x.Stock);
+            ViewBag.d5 = deger5;
+
             return View();
         }
     }
