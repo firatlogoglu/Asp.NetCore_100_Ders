@@ -81,14 +81,20 @@ namespace WA_06_CoreAndFood.Controllers
             var deger2 = c.TList().Count;
             ViewBag.d2 = deger2;
 
-            var deger3 = f.TList().Where(x => x.CategoryID == 1).Count();
+            var foid = c.TList().Where(x => x.Name == "Fruit").Select(y => y.ID).FirstOrDefault();
+            ViewBag.d = foid;
+
+            var deger3 = f.TList().Where(x => x.CategoryID == foid).Count();
             ViewBag.d3 = deger3;
 
-            var deger4 = f.TList().Where(x => x.CategoryID == 2).Count();
+            var deger4 = f.TList().Where(x => x.CategoryID == (c.TList().Where(z => z.Name == "Vegetables").Select(y => y.ID).FirstOrDefault())).Count();
             ViewBag.d4 = deger4;
 
             var deger5 = f.TList().Sum(x => x.Stock);
             ViewBag.d5 = deger5;
+
+            var deger6 = f.TList().Where(x => x.CategoryID == c.TList().Where(y => y.Name == "Legumes").Select(z => z.ID).FirstOrDefault()).Count();
+            ViewBag.d6 = deger6;
 
             return View();
         }
