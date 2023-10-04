@@ -81,7 +81,7 @@ namespace WA_06_CoreAndFood.Controllers
             var deger2 = c.TList().Count;
             ViewBag.d2 = deger2;
 
-            var foid = c.TList().Where(x => x.Name == "Food").Select(y => y.ID).FirstOrDefault();
+            var foid = c.TList().Where(x => x.Name == "Fruit").Select(y => y.ID).FirstOrDefault();
             ViewBag.d = foid;
 
             var deger3 = f.TList().Where(x => x.CategoryID == 1).Count();
