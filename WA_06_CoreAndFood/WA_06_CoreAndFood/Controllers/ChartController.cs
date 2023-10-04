@@ -73,8 +73,19 @@ namespace WA_06_CoreAndFood.Controllers
         public IActionResult Statistics()
         {
             FoodRepository f = new FoodRepository();
+            CategoryRepository c = new CategoryRepository();
+
             var deger1 = f.TList().Count;
             ViewBag.d1 = deger1;
+
+            var deger2 = c.TList().Count;
+            ViewBag.d2 = deger2;
+
+            var deger3 = f.TList().Where(x => x.CategoryID == 1).Count();
+            ViewBag.d3 = deger3;
+
+            var deger4 = f.TList().Where(x => x.CategoryID == 2).Count();
+            ViewBag.d4 = deger4;
 
             return View();
         }
