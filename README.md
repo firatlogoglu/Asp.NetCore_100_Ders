@@ -156,6 +156,8 @@
 <a href="https://youtu.be/sAfWt3kkHVk">77.) Asp.Net Core Mvc: Ders 77 Statistics Query-1</a>
 <br />
 <a href="https://youtu.be/MdaJQrj6gVk">78.) Asp.Net Core Mvc: Ders 78 Statistics Query-2</a>
+<br />
+<a href="https://youtu.be/3CBpnjDRv7U">79.) Asp.Net Core Mvc: Ders 79 Statistics Query-3</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
