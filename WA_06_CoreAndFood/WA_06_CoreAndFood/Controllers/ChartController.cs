@@ -82,7 +82,6 @@ namespace WA_06_CoreAndFood.Controllers
             ViewBag.d2 = deger2;
 
             var foid = c.TList().Where(x => x.Name == "Fruit").Select(y => y.ID).FirstOrDefault();
-            ViewBag.d = foid;
 
             var deger3 = f.TList().Where(x => x.CategoryID == foid).Count();
             ViewBag.d3 = deger3;
@@ -95,6 +94,15 @@ namespace WA_06_CoreAndFood.Controllers
 
             var deger6 = f.TList().Where(x => x.CategoryID == c.TList().Where(y => y.Name == "Legumes").Select(z => z.ID).FirstOrDefault()).Count();
             ViewBag.d6 = deger6;
+
+            var deger7 = f.TList().OrderByDescending(x => x.Stock).Select(y => y.Name).FirstOrDefault();
+            ViewBag.d7 = deger7;
+
+            var deger8 = f.TList().OrderBy(x => x.Stock).Select(y => y.Name).FirstOrDefault();
+            ViewBag.d8 = deger8;
+
+            var deger9 = f.TList().Average(x => x.Price).ToString("0.00");
+            ViewBag.d9 = deger9;
 
             return View();
         }
