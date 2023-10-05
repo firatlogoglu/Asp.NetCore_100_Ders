@@ -98,6 +98,9 @@ namespace WA_06_CoreAndFood.Controllers
             var deger7 = f.TList().OrderByDescending(x => x.Stock).Select(y => y.Name).FirstOrDefault();
             ViewBag.d7 = deger7;
 
+            var deger8 = f.TList().OrderBy(x => x.Stock).Select(y => y.Name).FirstOrDefault();
+            ViewBag.d8 = deger8;
+
             return View();
         }
     }
