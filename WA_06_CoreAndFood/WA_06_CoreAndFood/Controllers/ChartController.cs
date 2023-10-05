@@ -112,6 +112,9 @@ namespace WA_06_CoreAndFood.Controllers
             var deger11p = f.TList().Where(y => y.CategoryID == deger11).Sum(x => x.Stock);
             ViewBag.d11 = deger11p;
 
+            var deger12 = f.TList().OrderByDescending(x => x.Price).Select(y => y.Name).FirstOrDefault();
+            ViewBag.d12 = deger12;
+
             return View();
         }
     }
