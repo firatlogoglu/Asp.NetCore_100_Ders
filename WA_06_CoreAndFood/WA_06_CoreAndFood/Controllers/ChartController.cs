@@ -108,6 +108,10 @@ namespace WA_06_CoreAndFood.Controllers
             var deger10p = f.TList().Where(y => y.CategoryID == deger10).Sum(x => x.Stock);
             ViewBag.d10 = deger10p;
 
+            var deger11 = c.TList().Where(x => x.Name == "Vegetables").Select(y => y.ID).FirstOrDefault();
+            var deger11p = f.TList().Where(y => y.CategoryID == deger11).Sum(x => x.Stock);
+            ViewBag.d11 = deger11p;
+
             return View();
         }
     }
