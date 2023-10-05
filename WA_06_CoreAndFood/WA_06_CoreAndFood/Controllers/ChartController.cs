@@ -101,6 +101,9 @@ namespace WA_06_CoreAndFood.Controllers
             var deger8 = f.TList().OrderBy(x => x.Stock).Select(y => y.Name).FirstOrDefault();
             ViewBag.d8 = deger8;
 
+            var deger9 = f.TList().Average(x => x.Price);
+            ViewBag.d9 = deger9;
+
             return View();
         }
     }
