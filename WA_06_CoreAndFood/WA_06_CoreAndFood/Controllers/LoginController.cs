@@ -10,6 +10,7 @@ namespace WA_06_CoreAndFood.Controllers
     public class LoginController : Controller
     {
         [AllowAnonymous]
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
