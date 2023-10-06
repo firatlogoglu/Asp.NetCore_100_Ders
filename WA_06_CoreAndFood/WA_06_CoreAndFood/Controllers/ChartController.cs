@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -46,6 +47,7 @@ namespace WA_06_CoreAndFood.Controllers
             return cs;
         }
 
+        [AllowAnonymous]
         public IActionResult Index3()
         {
             return View();
