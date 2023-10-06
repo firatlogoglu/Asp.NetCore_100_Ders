@@ -174,6 +174,8 @@
 <a href="https://youtu.be/p4Ar1GbpnF8">86.) Asp.Net Core Mvc: Ders 86 Login İşlemi</a>
 <br />
 <a href="https://youtu.be/6UvkhJ9hdjA">87.) Asp.Net Core Mvc: Ders 87 Logout</a>
+<br />
+<a href="https://youtu.be/g4NBVr6oaRY">88.) Asp.Net Core Mvc: Ders 88 Vitrin E-Ticaret Temasına Genel Bakış</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
