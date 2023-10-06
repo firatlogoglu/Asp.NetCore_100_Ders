@@ -162,6 +162,8 @@
 <a href="https://youtu.be/WKq-aMuGN5s">80.) Asp.Net Core Mvc: Ders 80 Statistics Query 4</a>
 <br />
 <a href="https://youtu.be/Uukb24lG4F0">81.) Asp.Net Core Mvc: Ders 81 Login Formu</a>
+<br />
+<a href="https://youtu.be/afLf7DCu5lI">82.) Asp.Net Core Mvc: Ders 82 Admin Sınıfı Migration</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
