@@ -170,6 +170,8 @@
 <a href="https://youtu.be/nQfPrqY_4-s">84.) Asp.Net Core Mvc: Ders 84 Authorize All Controllers</a>
 <br />
 <a href="https://youtu.be/g77MFg38xN4">85.) Asp.Net Core Mvc: Ders 85 Allow Anonymous</a>
+<br />
+<a href="https://youtu.be/p4Ar1GbpnF8">86.) Asp.Net Core Mvc: Ders 86 Login İşlemi</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
