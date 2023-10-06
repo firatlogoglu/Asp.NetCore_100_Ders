@@ -13,7 +13,7 @@ namespace WA_06_CoreAndFood.Controllers
     {
         CategoryRepository categoryRepository = new CategoryRepository();
 
-        [Authorize]
+        //[Authorize]
         public IActionResult Index()
         {
             return View(categoryRepository.TList());
