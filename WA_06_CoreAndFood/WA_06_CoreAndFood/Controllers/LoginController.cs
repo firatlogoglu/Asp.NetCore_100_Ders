@@ -20,6 +20,8 @@ namespace WA_06_CoreAndFood.Controllers
             return View();
         }
 
+        [AllowAnonymous]
+        [HttpPost]
         public async Task<IActionResult> Index(Admin p)
         {
             AdminRepository a = new AdminRepository();
