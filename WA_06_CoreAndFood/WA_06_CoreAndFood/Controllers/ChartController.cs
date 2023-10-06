@@ -9,6 +9,7 @@ using WA_06_CoreAndFood.Repositories;
 
 namespace WA_06_CoreAndFood.Controllers
 {
+    [AllowAnonymous]
     public class ChartController : Controller
     {
         public IActionResult Index()
@@ -47,7 +48,6 @@ namespace WA_06_CoreAndFood.Controllers
             return cs;
         }
 
-        [AllowAnonymous]
         public IActionResult Index3()
         {
             return View();
