@@ -178,6 +178,8 @@
 <a href="https://youtu.be/g4NBVr6oaRY">88.) Asp.Net Core Mvc: Ders 88 Vitrin E-Ticaret Temasına Genel Bakış</a> | <a href="https://github.com/MuratYucedag/CoreAndFoodTemplate.git">CoreAndFoodTemplate (Github)</a>
 <br />
 <a href="https://youtu.be/bhqfXUBihJE">89.) Asp.Net Core Mvc: Ders 89 Temanın Projeye Eklenmesi Ve Düzenlemeler</a>
+<br />
+<a href="https://youtu.be/OOIqq98goaU">90.) Asp.Net Core Mvc: Ders 90 View Componentlerin Hazırlanması</a>
 <h2>Youtube Oynatma Listesi</h2>
 <a href="https://youtube.com/playlist?list=PLKnjBHu2xXNOld1njNVQ5fk0e12oqiWc8">Youtube Oynatma Listesi: Asp.Net Core Mvc</a>
 
